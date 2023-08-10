@@ -42,4 +42,4 @@ if __name__ == '__main__':
 
     res = client.get_code()
 
-    print(res.content.id)
+    print(res)

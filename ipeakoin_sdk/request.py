@@ -27,7 +27,7 @@ class Request(object):
         # status_code = response.status_code
         # obj: dict = response.json()
         obj: dict = {
-            "code": 0,
+            "code": 1,
             "message1": "12413",
             "error": "121",
             "data": {
@@ -38,7 +38,7 @@ class Request(object):
         }
 
         res = {
-            "code": obj.get("code", None),
+            "statusCode": obj.get("code", None),
             "message": obj.get("message", None),
             "content": clazz(**obj.get("data", None))
         }

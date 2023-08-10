@@ -3,4 +3,4 @@
 build
 dist
 ipeakoin_sdk.egg-info
-ipeakoin_sdk/__pycache__/
+*.cpython-37.pyc
