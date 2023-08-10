@@ -2,5 +2,5 @@
 .pypirc
 build
 dist
-qbit_py_sdk.egg-info
-qbit_py_sdk/__pycache__/
+ipeakoin_sdk.egg-info
+ipeakoin_sdk/__pycache__/
