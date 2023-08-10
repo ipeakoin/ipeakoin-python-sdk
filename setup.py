@@ -13,11 +13,11 @@ setuptools.setup(
     version="0.0.1",
     keywords=["Global Account", "Crypto Asset", "Quantum Card"],
     author="iPeakoin team",
-    author_email="https://github.com/ipeakoin/ipeakoin-python-sdk",
+    author_email="wangjiancheng@qbitnetwork.com",
     description="bass api",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/ipeakoin/ipeakoin-python-sdk",
     packages=setuptools.find_packages(exclude=('tests', '.pypirc')),
     classifiers=[
         "Programming Language :: Python :: 3",
